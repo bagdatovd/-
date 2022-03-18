@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\User\Desktop\Dias visual code\Project 5\css\style 2.css">
+
+    <title>Practise 5</title>
+</head>
+<body>
+    <div class="product">
+        <div class="productName">Dias 1</div>
+        <img src="C:\Users\User\Desktop\Dias visual code\Project 5\css\IMG_E1007.JPG" alt="">
+        <button>В корзину</button>
+    </div>
+    <div class="product">
+        <div class="productName">Dias 2</div>
+        <img src="C:\Users\User\Desktop\Dias visual code\Project 5\css\IMG_E1008.JPG" alt="">
+        <button>В корзину</button>
+    </div>
+    <div class="product">
+        <div class="productName">Dias 3</div>
+        <img src="C:\Users\User\Desktop\Dias visual code\Project 5\css\IMG_E1009.JPG" alt="">
+        <button>В корзину</button>
+    </div>
+
+
+    <script>
+        "use strict";
+
+        let products = document.querySelectorAll('.product')
+        products.forEach(function(product){
+            product.style.backgroundColor = 'green';
+        });
+
+        products.forEach(productName => productName.style.fontSize = "24px");
+    </script>
+</body>
+</html>
